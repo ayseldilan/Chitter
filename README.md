@@ -18,6 +18,8 @@ $ git clone https://github.com/ayseldilan/chitter.git
 $ cd chitter
 $ npm start
 ```
+please install
+-npm install @material-ui/core
 
 ### Run
 
