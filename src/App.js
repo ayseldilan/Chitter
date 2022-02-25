@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
+import SidebarOption from './components/SidebarOption';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 
      {/* Sidebar goes here */}
      <Sidebar />
+     
 
      {/* Feed stuff */}
 
