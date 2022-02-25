@@ -15,7 +15,8 @@ First, clone this repository to a local directory. Enter in the command line:
 
 ```
 $ git clone https://github.com/ayseldilan/chitter.git
-$ cd client
+$ cd chitter
+$ npm start
 ```
 
 ### Run
