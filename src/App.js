@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import SidebarOption from './components/SidebarOption';
 import Feed from './components/Feed';
 import Widgets from './components/Widgets';
+import Post from './components/Post';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Feed/>
 
      <Widgets />
+
 
     </div>
   );
