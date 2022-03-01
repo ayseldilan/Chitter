@@ -18,6 +18,7 @@ $ git clone https://github.com/ayseldilan/chitter.git
 $ cd chitter
 $ npm start
 ```
+
 please install
 -npm install @material-ui/core
 
@@ -35,4 +36,3 @@ click on http://localhost:3000
 - Firebase - Database
 - Material UI & flexbox
 - React-flip-move
-

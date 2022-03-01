@@ -8,14 +8,11 @@ import Post from './components/Post';
 
 function App() {
   return (
+    // BEM
     <div className="app">
-     <Sidebar />
-     
-     <Feed/>
-
-     <Widgets />
-
-
+      <Sidebar />
+      <Feed />
+      <Widgets />
     </div>
   );
 }
