@@ -1,7 +1,8 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import firebase from "firebase";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -10,6 +11,7 @@ import firebase from "firebase";
 const firebaseConfig = {
   apiKey: "AIzaSyBNrQeFYj_qwMumEXzjCwI0H8XQMve6CbY",
   authDomain: "twitter-clone-d6f1b.firebaseapp.com",
+  databaseURL: "https://twitter-clone-d6f1b-default-rtdb.firebaseio.com",
   projectId: "twitter-clone-d6f1b",
   storageBucket: "twitter-clone-d6f1b.appspot.com",
   messagingSenderId: "904725899785",
@@ -18,8 +20,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// const app = initializeApp(firebaseConfig);
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const db = firebaseApp.firestore();
